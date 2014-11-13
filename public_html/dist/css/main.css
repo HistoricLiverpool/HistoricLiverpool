@@ -1,0 +1,21 @@
+/*Importing font faces*/
+
+@font-face {
+  font-family: 'typewriter';
+  src: url('/dist/fonts/typewriter/typewriter.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/dist/fonts/typewriter/typewriter.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.map_container{
+    margin:0; padding:0;
+}
+
+.container-canvas {
+        /* This could be done in one single declaration. See the extended sample. */
+        margin-right: auto;
+        margin-left: auto;
+        width: 800px;
+    }
+
+#map { position:absolute; top:10; bottom:0; width:100%; }
+
